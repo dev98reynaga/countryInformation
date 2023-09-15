@@ -1,3 +1,8 @@
+**Page Account***
+
+![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/5f5b3d01-bce5-40a0-bac3-ff0122b58e86)
+
+
 **Component images**
 
 1. ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/57402f4c-d00c-4918-9cc1-3bc424d1a4c4)
@@ -6,9 +11,21 @@
 
 **When pressing the save button**
 
-5. ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/c4a568b5-2d19-4e75-9055-1c7acf77865a)
+4. ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/c4a568b5-2d19-4e75-9055-1c7acf77865a)
+
+**Objects**
+
+5. **Account**
+   
+   ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/c82198b5-ae9b-408e-b71a-145289697eb8)
+
+7. **Pais**
+
+![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/33e911eb-0c50-4bdf-9d94-773eaa6f1040)
+
    
 **REST API**
+
 7. **get token**
 
   ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/01e91b22-5c0f-404b-b917-991eee78d1f0)
