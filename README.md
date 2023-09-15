@@ -5,7 +5,9 @@
 **When pressing the save button**
 4. ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/c4a568b5-2d19-4e75-9055-1c7acf77865a)
 **REST API**
-5. ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/01e91b22-5c0f-404b-b917-991eee78d1f0)
-6. ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/4f03dd16-d2b3-4161-9487-5064c2485ae5)
+6. **get token**
+  ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/01e91b22-5c0f-404b-b917-991eee78d1f0)
+7. **get countries**
+  ![image](https://github.com/dev98reynaga/countryInformation/assets/108247670/4f03dd16-d2b3-4161-9487-5064c2485ae5)
 
 
