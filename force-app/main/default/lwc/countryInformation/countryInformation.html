@@ -1,0 +1,61 @@
+<template>
+    <lightning-card variant="Narrow" title="Información del país" icon-name="standard:account">
+        <div class="slds-p-horizontal_small">
+            <template if:true={countryPicklist.data}>
+                <lightning-combobox 
+                    name="country" 
+                    label="Pais" 
+                    onchange={handleSelectedCountry}
+                    value={objCountry.Country}
+                    options={countryPicklist.data.values}></lightning-combobox>
+            </template>
+            <lightning-spinner if:true={showSpinner} alternative-text="Loading" size="medium"></lightning-spinner>
+            <template if:true={showInformation}>
+                <div class="slds-m-top_medium slds-p-around_x-small" style="width: 100px; background-color: rgb(196, 196, 196);">
+                    <img src={objCountry.Flag_Image__c} alt="Imagen de la bandera del país">
+                </div>
+                <div class="slds-m-vertical_medium slds-form" role="list">
+                    <div class="slds-form__row">
+                        <div class="slds-form__item" role="listitem">
+                            <div
+                                class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
+                                <span class="slds-form-element__label">Capital</span>
+                                <div class="slds-form-element__control">
+                                    <div class="slds-form-element__static">{objCountry.Capital__c}</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-form__item" role="listitem">
+                            <div
+                                class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
+                                <span class="slds-form-element__label">Idiomas</span>
+                                <div class="slds-form-element__control">
+                                    <div class="slds-form-element__static">{objCountry.Languages__c}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-form__row">
+                        <div class="slds-form__item" role="listitem">
+                            <div
+                                class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-form-element_1-col">
+                                <span class="slds-form-element__label">Descripción de la bandera</span>
+                                <div class="slds-form-element__control">
+                                    <div class="slds-form-element__static slds-text-longform">
+                                        {objCountry.Description__c}
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <lightning-button variant="brand" label="Guardar" disabled={buttonDisabled} title="Guardar" onclick={handleSave}></lightning-button>
+            </template>
+            
+            
+        </div>
+    </lightning-card>
+
+
+</template>
